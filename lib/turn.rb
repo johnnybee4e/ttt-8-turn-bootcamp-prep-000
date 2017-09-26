@@ -13,6 +13,12 @@ def turn(board)
 
     end
 
+  if !valid_move?(board, index)
+
+    turn(board)
+
+  end
+
 end
 
 def display_board(board)
