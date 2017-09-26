@@ -11,12 +11,6 @@ def turn(board)
 
     end
 
-  if !valid_move?(board, index) || !position_taken?(board, index)
-
-    turn(board)
-
-  end
-
 end
 
 def display_board(board)
